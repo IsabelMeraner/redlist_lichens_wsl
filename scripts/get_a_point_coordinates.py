@@ -31,7 +31,7 @@ def main():
     #jura: 432 443
     #gesa: 138 170 255 262 263 319 321 352 372 381 383 392 395 441 491 504 507 511 512 518 528 544 558 582 585 594 595 597
     #schaffhausen: 459 431 107 118 104 140 146 427
-    # wallis zusatz:: 244 492
+    # wallis: 244 492
     # bern: 202 211 486 478 187 479 505 502 480 237
     argparser.add_argument(
         '-n', '--plot_numbers',
@@ -51,8 +51,10 @@ def main():
     plot_numbers = args.plot_numbers
     plot_numbers = plot_numbers.split(" ")
 
+    with open("secret.txt", "r") as keyfile:
+        apikey = keyfile.read().rstrip("\n")
 
-    gmaps = googlemaps.Client(key='AIzaSyA2a4iIjLg6_g22-ksaSRLqgFj4XufG-6k')
+    gmaps = googlemaps.Client(key=apikey)
 
     print(plot_numbers, type(plot_numbers))
 
