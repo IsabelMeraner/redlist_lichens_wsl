@@ -51,6 +51,7 @@ def main():
     plot_numbers = args.plot_numbers
     plot_numbers = plot_numbers.split(" ")
 
+    # load your own google api key here:
     with open("secret.txt", "r") as keyfile:
         apikey = keyfile.read().rstrip("\n")
 
