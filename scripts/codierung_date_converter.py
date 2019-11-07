@@ -1,6 +1,6 @@
 # usr/bin/env python3
 # author: Isabel Meraner
-# Project:
+# Project: Red List SwissLichens 2018-2020
 # 2019
 
 """
