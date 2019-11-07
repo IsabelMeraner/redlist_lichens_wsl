@@ -1,3 +1,10 @@
+# project files
+lfi/*
+parks_zh/*
+codierung_herbar/*
+a_punkte/*
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
