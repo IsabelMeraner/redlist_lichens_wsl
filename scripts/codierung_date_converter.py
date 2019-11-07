@@ -4,11 +4,10 @@
 # 2019
 
 """
-Convert unsystematic dates from historical
+Convert unsystematic dates from historical, digitized herbarium of lichens to systematic format
+in order to prepare the dataset for the DB import.
 """
 import argparse
-import os
-import sys
 
 
 def main():
