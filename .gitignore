@@ -4,7 +4,14 @@ parks_zh/*
 codierung_herbar/*
 a_punkte/*
 secret/*
-
+.idea/*
+lfi_coordinates/*
+nomenclat/*
+scripts/r_tutorial.R
+scripts/template_python.py
+scripts/test
+scripts/get_info_coordinates.py
+scripts/convert.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
