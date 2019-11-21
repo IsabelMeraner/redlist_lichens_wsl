@@ -12,6 +12,7 @@ scripts/template_python.py
 scripts/test
 scripts/get_info_coordinates.py
 scripts/convert.py
+scripts/.RData
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
