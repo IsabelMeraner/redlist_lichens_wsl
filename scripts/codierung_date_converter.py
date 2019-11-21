@@ -17,7 +17,7 @@ def main():
     argparser.add_argument(
         '-f', '--file',
         type=str,
-        default=r'../codierung_herbar/det_datum.txt',
+        default=r'../codierung_herbar/datum_det_nonsursilva.csv',
         help='')
 
     args = argparser.parse_args()
